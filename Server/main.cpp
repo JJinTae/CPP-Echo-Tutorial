@@ -13,6 +13,7 @@ void ShowErrorMessage(string message) // 에러 핸들링 함수 필수!
 
 int main()
 {
+	cout << "TCP Echo Project " << '\n';
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
